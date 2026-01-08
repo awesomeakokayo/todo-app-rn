@@ -33,9 +33,9 @@ const Tabslayout = () => {
             }}
         />
         <Tabs.Screen
-            name='index'
+            name='settings'
             options={{
-                title:"Todos",
+                title:"Settings",
                 tabBarIcon: ({color, size}) => (
                 <Ionicons name='settings' size={size} color={color}/>)
             }}

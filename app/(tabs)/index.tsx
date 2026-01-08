@@ -11,7 +11,7 @@ export default function Index() {
       <TouchableOpacity onPress={toggleDarkMode}>
         <Text>toggle the mode</Text>
       </TouchableOpacity>
-      <Link href="/tabs/settings">Visit about screen</Link>
+      <Link href="/(tabs)/settings">Visit about screen</Link>
     </View>
   );
 }
